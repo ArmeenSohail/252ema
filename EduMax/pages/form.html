@@ -137,7 +137,7 @@
 =======
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <!-- Bootstrap stylesheet -->
-    <link rel="stylesheet" href="../css/custom.css" />
+    <link rel="stylesheet" href="../pages/custom.css" />
     <!-- Custom stylesheet - linked after Bootstrap so that entries here take precedence and override Bootstrap's style -->
   </head>
   <body>
@@ -237,20 +237,21 @@
                 action="https://students.open.ac.uk/mct/tm252/reflect/reflect.php"
                 method="POST"
               >
-                <div class="form-row">
-                  <div class="col">
-                    <label for="subjectLine">Subject line (max 5 words):</label
-                    ><br />
+                <div class="form-row" id="row-1">
+                  <div class="form-group col-md-4">
+                    <label for="subjectLine">Subject line (max 5 words):</label>
                     <input
+                      class="form-control"
                       required
                       type="text"
                       id="sLineInput"
                       name="subjectLine"
                       placeholder="Subject line"
                       value="(Spider) Web Development Day"
-                    /><br />
+                    />
                   </div>
 
+<<<<<<< HEAD
                   <div class="col">
                     <label for="content">Content:</label><br />
                     <span
@@ -270,8 +271,12 @@
 
                 <div class="form-row">
                   <div class="col">
+=======
+                  <div class="form-group col-md-4">
+>>>>>>> e699deb (Removing unnecessary css styling and reordering form rows to improve usability)
                     <label for="senderName">Sender's name:</label><br />
                     <input
+                      class="form-control"
                       required
                       type="text"
                       id="sNameInput"
@@ -280,9 +285,10 @@
                       value="Peter Parker"
                     /><br />
                   </div>
-                  <div class="col">
+                  <div class="form-group col-md-4">
                     <label for="senderRole">Sender's role:</label><br />
                     <input
+                      class="form-control"
                       required
                       type="text"
                       id="sRoleInput"
@@ -293,28 +299,71 @@
                   </div>
                 </div>
 
-                <div class="form-row">
-                  <div class="col">
+                <div class="form-row" id="row-2">
+                  <div class="form-group col-4">
                     <label for="moduleLeadAttachment"
                       >Module lead attachment (optional):</label
                     ><br />
                     <input
+                      class="form-control"
                       type="file"
                       id="modLeadAttachInput"
                       name="moduleLeadAttachment"
                     /><br />
                   </div>
-                  <div class="col">
+                  <div class="form-group col-4">
                     <label for="dateTime">Date and time:</label><br />
                     <input
+                      class="form-control"
                       required
                       type="datetime-local"
                       id="dateTimeInput"
                       name="dateTime"
                     /><br />
                   </div>
+
+                  <div id="priority" required>
+                    <div class="form-group col">
+                      <label for="priority">Priority:</label><br />
+                      
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="high"
+                          value="high"
+                        />
+                        <label class="form-check-label" for="high">High</label
+                        ><br />
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="normal"
+                          value="normal"
+                        />
+                        <label class="form-check-label" for="normal"
+                          >Normal</label
+                        ><br />
+                      </div>
+
+                      <div class="form-check form-check-inline">
+                        <input
+                          class="form-check-input"
+                          type="checkbox"
+                          id="low"
+                          value="low"
+                        />
+                        <label class="form-check-label" for="low">Low</label>
+                        <br />
+                      </div>
+                    </div>
+                  </div>
                 </div>
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 								<div id="priorities">
 									<div class="form-group col">
@@ -383,6 +432,19 @@
                       <label class="form-check-label" for="low">Low</label>
                       <br />
                     </div>
+=======
+                <div class="form-row" id="row-3">
+                  <div class="form-group col">
+                    <label for="content">Content:</label>
+                    <input
+                      class="form-control"
+                      required
+                      id="contentInput"
+                      name="content"
+                      placeholder="Announcement content"
+                      value="Learn how to sling webs (and websites) like Spider-Man!"
+                    />
+>>>>>>> e699deb (Removing unnecessary css styling and reordering form rows to improve usability)
                   </div>
                 </div>
 >>>>>>> f7774be (Finished bootstrap implementation and deleted unecessary files)
@@ -462,7 +524,12 @@ Learn how to sling webs (and websites) like Spider-Man!</textarea
 =======
                 <div class="row">
                   <div class="col">
-                    <input type="submit" value="Submit" />
+                    <input
+                      type="submit"
+                      class="btn btn-dark"
+                      id="submit"
+                      value="Submit"
+                    />
                   </div>
                 </div>
               </form>

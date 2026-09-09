@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Width, height, and spacing */
 
 header,
@@ -116,3 +117,33 @@ footer,
 /* * {
 	outline: 2px solid red;
 } */
+=======
+.header {
+  background-color: #3c9fc3;
+  color: white;
+}
+
+h1.header {
+  font-size: 8vw;
+}
+
+h2,
+h3,
+h4 {
+  color: #3c9fc3;
+}
+
+.img-fluid {
+  width: 10vw;
+  height: inherit;
+}
+
+#dateTimeInput {
+  justify-items: center;
+  border: 1px solid #dee2e6;
+}
+
+#contentInput {
+  height: 5vw;
+}
+>>>>>>> e699deb (Removing unnecessary css styling and reordering form rows to improve usability)

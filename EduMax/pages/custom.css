@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Width, height, and spacing */
 
 header,
@@ -6,10 +7,17 @@ footer,
 .main-row-1,
 .main-row-2,
 .breadcrumb {
+=======
+header,
+footer,
+.main-row-1,
+.main-row-2 {
+>>>>>>> c944e83 (Expanded header and footer to span width of page, made small colour changes)
 	width: 100vw;
 	justify-self: center;
 }
 
+<<<<<<< HEAD
 .breadcrumb {
 	padding-left: 1vw;
 }
@@ -118,6 +126,8 @@ footer,
 	outline: 2px solid red;
 } */
 =======
+=======
+>>>>>>> c944e83 (Expanded header and footer to span width of page, made small colour changes)
 .header {
 	background-color: #3c9fc3;
 	color: white;
@@ -136,13 +146,16 @@ h3 {
 	color: #2a7089;
 }
 
+.imageCol {
+	padding-left: 0px;
+}
+
 .img-fluid {
 	width: 10.5vw;
 	height: 10.5vw;
 }
 
 #dateTimeInput {
-	justify-items: center;
 	border: 1px solid #dee2e6;
 }
 
@@ -153,12 +166,17 @@ h3 {
 >>>>>>> e699deb (Removing unnecessary css styling and reordering form rows to improve usability)
 =======
 
+.loginCol {
+	padding-right: 0px;
+}
+
 #login {
 	background-color: #2a7089;
 	border-color: #2a7089;
 	color: white;
 	font-size: medium;
 	width: 8vw;
+	float: right;
 }
 
 #login:hover {
@@ -167,5 +185,36 @@ h3 {
 
 #search {
 	width: 20vw;
+	float: right;
+	padding-right: 6px;
 }
+<<<<<<< HEAD
 >>>>>>> 87ab7c7 (Changed priority radio dials to be boxes instead of dials and changed colours for login button to be more consistent with others)
+=======
+
+.me-2 {
+	margin-right: 0rem !important;
+}
+
+.copyright {
+	text-align: end;
+}
+
+footer {
+	padding-bottom: 7px;
+}
+
+footer,
+.nav-link {
+	background-color: #212529;
+	color: #f2f1ed;
+}
+
+.nav-link:hover {
+	color: #3c9fc3;
+}
+
+/* * {
+	outline: 2px solid red;
+} */
+>>>>>>> c944e83 (Expanded header and footer to span width of page, made small colour changes)

@@ -119,53 +119,53 @@ footer,
 } */
 =======
 .header {
-  background-color: #3c9fc3;
-  color: white;
+	background-color: #3c9fc3;
+	color: white;
 }
 
 h1.header {
-  font-size: 8vw;
+	font-size: 8vw;
 }
 
 h2 {
-  font-weight: bold;
-  color: #2a7089;
+	font-weight: bold;
+	color: #2a7089;
 }
 
 h3 {
-  color: #2a7089;
+	color: #2a7089;
 }
 
 .img-fluid {
-  width: 10.5vw;
-  height: 10.5vw;
+	width: 10.5vw;
+	height: 10.5vw;
 }
 
 #dateTimeInput {
-  justify-items: center;
-  border: 1px solid #dee2e6;
+	justify-items: center;
+	border: 1px solid #dee2e6;
 }
 
 #contentInput {
-  height: 5vw;
+	height: 5vw;
 }
 <<<<<<< HEAD
 >>>>>>> e699deb (Removing unnecessary css styling and reordering form rows to improve usability)
 =======
 
 #login {
-  background-color: #2a7089;
-  border-color: #2a7089;
-  color: white;
-  font-size: medium;
-  width: 8vw;
+	background-color: #2a7089;
+	border-color: #2a7089;
+	color: white;
+	font-size: medium;
+	width: 8vw;
 }
 
 #login:hover {
-  background-color: #235d73;
+	background-color: #235d73;
 }
 
 #search {
-  width: 20vw;
+	width: 20vw;
 }
 >>>>>>> 87ab7c7 (Changed priority radio dials to be boxes instead of dials and changed colours for login button to be more consistent with others)

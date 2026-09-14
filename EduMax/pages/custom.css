@@ -85,6 +85,7 @@ footer {
 #login {
 	background-color: #9c3d6a;
 	border-color: #823258;
+<<<<<<< HEAD
 	color: #ffdeed;
 	font-weight: bold;
 }
@@ -240,6 +241,8 @@ footer {
 #login {
 	background-color: #9c3d6a;
 	border-color: #9c3d6a;
+=======
+>>>>>>> 12b5e33 (Fixing errors highlighted by W3C Validator (HTML and CSS))
 	color: #ffdeed;
 	font-weight: bold;
 }
@@ -247,7 +250,7 @@ footer {
 #submit:hover,
 #login:hover {
 	background-color: #ffdeed;
-	border-color: #ffdeed;
+	border-color: #cbadba;
 	color: #9c3d6a;
 	font-weight: bold;
 }

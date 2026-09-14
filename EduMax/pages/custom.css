@@ -1,0 +1,118 @@
+/* Width, height, and spacing */
+
+header,
+footer,
+.main-row-1,
+.main-row-2,
+.breadcrumb {
+	width: 100vw;
+	justify-self: center;
+}
+
+.breadcrumb {
+	padding-left: 1vw;
+}
+
+.imageCol {
+	padding-left: 0px;
+}
+
+.img-fluid {
+	width: 10.5vw;
+	height: 10.5vw;
+}
+
+#contentInput {
+	height: 8vw;
+}
+
+#search {
+	width: 20vw;
+	float: right;
+	padding-right: 6px;
+}
+
+.me-2 {
+	margin-right: 0rem !important;
+}
+
+.copyright {
+	text-align: end;
+}
+
+footer {
+	padding-bottom: 11px;
+}
+
+/* Buttons */
+
+#login {
+	background-color: #212529;
+	border-color: #212529;
+	color: white;
+	font-size: medium;
+	font-weight: bold;
+}
+
+#login:hover {
+	background-color: #99486e;
+	border-color: #99486e;
+	color: white;
+	font-weight: bold;
+}
+
+#submit,
+#login {
+	background-color: #9c3d6a;
+	border-color: #823258;
+	color: #ffdeed;
+	font-weight: bold;
+}
+
+#submit:hover,
+#login:hover {
+	background-color: #ffdeed;
+	border-color: #cbadba;
+	color: #9c3d6a;
+	font-weight: bold;
+}
+
+/* Font and colour */
+
+.header {
+	background-color: #ff7cb9;
+}
+
+h1 {
+	font-size: 4vw;
+	justify-self: center;
+	color: #4c1f34;
+}
+
+h2 {
+	color: #99486e;
+}
+
+h1,
+h2 {
+	font-family: "IBM Plex Mono";
+	font-weight: bold;
+}
+
+.nav-link:hover {
+	color: #ff7cb9;
+}
+
+#dateTimeInput {
+	border: 1px solid #dee2e6;
+}
+
+footer,
+.nav-link {
+	background-color: #212529;
+	color: #f2f1ed;
+}
+
+/* * {
+	outline: 2px solid red;
+} */
